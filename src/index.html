@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="utf-8">
@@ -7,15 +7,15 @@
         name="viewport"
         content="width=device-width, initial-scale=1"
     >
-    <title>Bootstrap w/ Vite</title>
+    <title>Periodic Table of Monosaccharides</title>
     <script
         type="module"
         src="./js/main.js"
     ></script>
 </head>
 
-<body>
-    <main>
+<body class="h-100">
+    <main class="d-flex flex-column h-100">
         <nav
             class="navbar navbar-expand-md navbar-dark bg-dark"
             aria-label="Fourth navbar example"
@@ -49,10 +49,13 @@
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >Cite</a>
-                            <div class="dropdown-menu" style="min-width: 300px">
+                            <div
+                                class="dropdown-menu"
+                                style="min-width: 300px"
+                            >
                                 <div class="my-2 mx-3">
                                     Cummings RD. A periodic table of monosaccharides. Glycobiology.
-                                    <br>doi: 10.1093/glycob/cwad088. 
+                                    <br>doi: 10.1093/glycob/cwad088.
                                     <br>PMID: 37935401.
                                 </div>
                             </div>
@@ -74,13 +77,19 @@
             </div>
         </nav>
 
-        <div class="container py-4 px-3 mx-auto">
-            <div id="canvas">
-    
+        <div class="container-fluid p-3 mx-auto flex-fill">
+            <div id="canvas" class="h-100 w-100">
+
             </div>
         </div>
 
+        <footer class="footer mt-auto py-3 bg-body-tertiary">
+            <div class="container-fluid">
+                <span class="text-body-secondary">The National Center for Functional Glycomics</span>
+            </div>
+        </footer>
     </main>
+
 
 
 </body>

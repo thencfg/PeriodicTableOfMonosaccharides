@@ -1,0 +1,105 @@
+index	monosaccharide	abbreviation	systematic_name	group	period	mass	formula	block	x	y	kegg	pubchem	chebi	glygen	glyconnect	glytoucan?
+1	Glyceraldehyde	Gly	Glyceraldehyde	Aldose	Triose	90.08	C3H6O3	a	1	1	https://www.genome.jp/entry/C00577	https://pubchem.ncbi.nlm.nih.gov/substance/3856	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17378			
+2	Dihydroxyacetone	DHA	Dihydroxyacetone	Ketose	Triose	90.08	C3H6O3	a	4	1	https://www.genome.jp/entry/C00184	https://pubchem.ncbi.nlm.nih.gov/substance/3484	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16016			
+3	Threose	Thr	Threose	Aldose	Tetrose	120.1	C4H8O4	a	1	2	https://www.genome.jp/entry/C06463	https://pubchem.ncbi.nlm.nih.gov/substance/8695	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28587			
+4	Erythrose	Ery	Erythrose	Aldose	Tetrose	120.1	C4H8O4	a	2	2	https://www.genome.jp/entry/C01796	https://pubchem.ncbi.nlm.nih.gov/substance/4923	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:27904			
+5	Erythrulose	Eru	Erythrulose	Ketose	Tetrose	120.1	C4H8O4	a	4	2	https://www.genome.jp/entry/C02022	https://pubchem.ncbi.nlm.nih.gov/substance/5117	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16023			
+6	Ribose	Rib	Ribose	Aldose	Pentose	150.13	C5H10O5	a	1	3	https://www.genome.jp/entry/C00121	https://pubchem.ncbi.nlm.nih.gov/substance/3421	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:47013			
+7	Xylose	Xyl	Xylose	Aldose	Pentose	150.13	C5H10O5	a	2	3	https://www.genome.jp/entry/C00181	https://pubchem.ncbi.nlm.nih.gov/substance/3481	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:53455			
+8	Apiose	Api	Apiose	Aldose	Pentose	150.13	C5H10O5	a	3	3	https://www.genome.jp/entry/C01488	https://pubchem.ncbi.nlm.nih.gov/substance/254816265	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:141215			
+9	Ribulose	Ribu	Ribulose	Ketose	Pentose	150.13	C5H10O5	a	4	3	https://www.genome.jp/entry/C00309	https://pubchem.ncbi.nlm.nih.gov/substance/3603	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17173			
+10	Xylulose	Xylu	Xylulose	Ketose	Pentose	150.13	C5H10O5	a	5	3	https://www.genome.jp/entry/C00310	https://pubchem.ncbi.nlm.nih.gov/substance/3604	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17140			
+11	2-Deoxyribose	dRib	2-Deoxyribose	Deoxysugar	Pentose	134.13	C5H10O4	a	21	3	https://www.genome.jp/entry/C01801	https://pubchem.ncbi.nlm.nih.gov/substance/4927	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28816			
+12	Arabinose	Ara	Arabinose	Aldose	Pentose	150.13	C5H10O5	a	1	4	https://www.genome.jp/entry/C00216	https://pubchem.ncbi.nlm.nih.gov/substance/3516	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17108			
+13	Lyxose	Lyx	Lyxose	Aldose	Pentose	150.13	C5H10O5	a	2	4	https://www.genome.jp/entry/C00476	https://pubchem.ncbi.nlm.nih.gov/substance/3759	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:82838			
+14	2-Deoxy-L-arabinose	dAra	2-Deoxy-L-arabinose	Deoxysugar	Pentose	134.13	C5H10O4	a	20	4	https://www.genome.jp/entry/C02783	https://pubchem.ncbi.nlm.nih.gov/substance/5734	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:27816			
+15	2-Deoxyxylose	dXyl	2-Deoxyxylose	Deoxysugar	Pentose	134.13	C5H10O4	a	21	4						
+16	Glucose	Glc	D-Glucopyranose	Aldose	Hexose	180.16	C6H12O6	a	1	5	https://www.genome.jp/entry/C00031	https://pubchem.ncbi.nlm.nih.gov/substance/3333	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4167	https://www.glygen.org/glycan/G15021LG	https://glyconnect.expasy.org/browser/structures/534	
+17	Galactose	Gal	Galactose	Aldose	Hexose	180.16	C6H12O6	a	2	5	https://www.genome.jp/entry/C00124	https://pubchem.ncbi.nlm.nih.gov/substance/3424	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4139			
+18	Mannose	Man	Mannose	Aldose	Hexose	180.16	C6H12O6	a	3	5	https://www.genome.jp/entry/C00159	https://pubchem.ncbi.nlm.nih.gov/substance/3459	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4208			
+19	Fructose	Fru	Fructose	Ketose	Hexose	180.16	C6H12O6	a	4	5	https://www.genome.jp/entry/C00095	https://pubchem.ncbi.nlm.nih.gov/substance/3395	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15824			
+20	Psicose	Psi	Psicose	Ketose	Hexose	180.16	C6H12O6	a	5	5	https://www.genome.jp/entry/C06468	https://pubchem.ncbi.nlm.nih.gov/substance/8700	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:27605			
+21	Glucosamine	GlcN	Glucosamine	Aminosugar	Hexose	179.17	C6H13NO5	a	6	5	https://www.genome.jp/entry/C00329	https://pubchem.ncbi.nlm.nih.gov/substance/3623	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:47977			
+22	Galactosamine	GalN	Galactosamine	Aminosugar	Hexose	179.17	C6H13NO5	a	7	5	https://www.genome.jp/entry/C02262	https://pubchem.ncbi.nlm.nih.gov/substance/5324	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:177035			
+23	Mannosamine	ManN	Mannosamine	Aminosugar	Hexose	179.17	C6H13NO5	a	8	5	https://www.genome.jp/entry/C03570	https://pubchem.ncbi.nlm.nih.gov/substance/6362	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:62324			
+24	Bacillosamine	Bac	Bacillosamine	Aminosugar	Hexose	162.19	C6H14NO3	a	9	5	https://www.genome.jp/entry/C21041	https://pubchem.ncbi.nlm.nih.gov/substance/254816266	NA			
+25	Desosamine	Des	Desosamine	Aminosugar	Hexose	175.23	C6H17NO3	a	10	5						
+26	Allosamine	AllN	Allosamine	Aminosugar	Hexose	179.17	C6H13NO5	a	11	5	https://www.genome.jp/entry/C21038	https://pubchem.ncbi.nlm.nih.gov/substance/254816263	NA			
+27	Glucuronic acid	GlcA	Glucuronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	12	5	https://www.genome.jp/entry/C16245	https://pubchem.ncbi.nlm.nih.gov/substance/3491	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4178			
+28	Iduronic acid	IdoA	L-Iduronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	13	5	https://www.genome.jp/entry/C06472	https://pubchem.ncbi.nlm.nih.gov/substance/8704	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:47903			
+29	Mannuronic acid	ManA	Mannuronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	14	5	https://www.genome.jp/entry/C02024	https://pubchem.ncbi.nlm.nih.gov/substance/5119	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16224			
+30	N-Acetyl-6-deoxy-L-altrosamine	L6dAltNAc	N-Acetyl-6-deoxy-L-altrosamine	Deoxysugar	Hexose	205.21	C8H15NO5	a	15	5	https://www.genome.jp/entry/C22240	https://pubchem.ncbi.nlm.nih.gov/substance/405226431	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:181400			
+31	Colitose	Col	Colitose	Deoxysugar	Hexose	148.16	C6H12O4	a	16	5	https://www.genome.jp/entry/C03348	https://pubchem.ncbi.nlm.nih.gov/substance/6190	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:1416			
+32	Tyvelose	Tyv	Tyvelose	Deoxysugar	Hexose	148.16	C6H12O4	a	17	5	https://www.genome.jp/entry/C21062	https://pubchem.ncbi.nlm.nih.gov/substance/254816287	NA			
+33	Paratose	Par	"3,6-Dideoxy-D-ribose"	Deoxysugar	Hexose	148.16	C6H12O4	a	18	5	https://www.genome.jp/entry/C21055	https://pubchem.ncbi.nlm.nih.gov/substance/254816280	NA			
+34	Digitoxose	Dig	Digitoxose	Deoxysugar	Hexose	148.16	C6H12O4	a	19	5	https://www.genome.jp/entry/C21045	https://pubchem.ncbi.nlm.nih.gov/substance/254816270	NA			
+35	Olivose	Oli	Olivose	Deoxysugar	Hexose	148.16	C6H12O4	a	20	5	https://www.genome.jp/entry/C21054	https://pubchem.ncbi.nlm.nih.gov/substance/254816279	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:139377			
+36	Ascarylose	Asc	Ascarylose	Deoxysugar	Hexose	148.16	C6H12O4	a	21	5	https://www.genome.jp/entry/C22244	https://pubchem.ncbi.nlm.nih.gov/substance/405226435	NA			
+37	Altrose	Alt	Altrose	Aldose	Hexose	180.16	C6H12O6	a	1	6	https://www.genome.jp/entry/C06464	https://pubchem.ncbi.nlm.nih.gov/substance/8696	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28385			
+38	Allose	All	Allose	Aldose	Hexose	180.16	C6H12O6	a	2	6	https://www.genome.jp/entry/C01487	https://pubchem.ncbi.nlm.nih.gov/substance/4657	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4093			
+39	Idose	Ido	Idose	Aldose	Hexose	180.16	C6H12O6	a	3	6	https://www.genome.jp/entry/C06466	https://pubchem.ncbi.nlm.nih.gov/substance/8698	https://www.genome.jp/dbget-bin/get_linkdb?-t+chebi+cpd:C06466			
+40	Tagatose	Tag	Tagatose	Ketose	Hexose	180.16	C6H12O6	a	4	6	https://www.genome.jp/entry/C00795	https://pubchem.ncbi.nlm.nih.gov/substance/4053	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4249			
+41	Sorbose	Sor	Sorbose	Ketose	Hexose	180.16	C6H12O6	a	5	6	https://www.genome.jp/entry/C00764	https://pubchem.ncbi.nlm.nih.gov/substance/4026	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48674			
+42	Idosamine	IdoN	L-Idosamine	Aminosugar	Hexose	179.17	C6H13NO5	a	6	6	https://www.genome.jp/entry/C21051	https://pubchem.ncbi.nlm.nih.gov/substance/254816276	NA			
+43	Altrosamine	AltN	L-Altrosamine	Aminosugar	Hexose	179.17	C6H13NO5	a	7	6	https://www.genome.jp/entry/C21035	https://pubchem.ncbi.nlm.nih.gov/substance/254816260	NA			
+44	Talosamine	TalN	Talosamine	Aminosugar	Hexose	179.17	C6H13NO5	a	8	6	https://www.genome.jp/entry/C21060	https://pubchem.ncbi.nlm.nih.gov/substance/254816285	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:133904			
+45	Gulosamine	GulN	Gulosamine	Aminosugar	Hexose	179.17	C6H13NO5	a	9	6	https://www.genome.jp/entry/C21048	https://pubchem.ncbi.nlm.nih.gov/substance/254816273	NA			
+46	Muramic acid	Mur	Muramic acid	Aminosugar	Hexose	251.23	C9H17NO7	a	10	6	https://www.genome.jp/entry/C06470	https://pubchem.ncbi.nlm.nih.gov/substance/8702	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:7027			
+47	N-Acetyl-fucosamine	FucNAc	N-Acetyl-fucosamine	Aminosugar	Hexose	205.21	C8H15NO5	a	11	6	https://www.genome.jp/entry/C15480	https://pubchem.ncbi.nlm.nih.gov/substance/17396474	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:79971			
+48	L-Altruronic acid	LAltA	L-Altruronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	12	6	https://www.genome.jp/entry/C21034	https://pubchem.ncbi.nlm.nih.gov/substance/254816259	https://www.genome.jp/dbget-bin/get_linkdb?-t+chebi+cpd:C21034			
+49	Guluronic acid	GulA	Guluronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	13	6	https://www.genome.jp/entry/C21047	https://pubchem.ncbi.nlm.nih.gov/substance/254816272	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182516			
+50	Fructuronic acid	FruA	Fructuronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	14	6	https://www.genome.jp/entry/C00905	https://pubchem.ncbi.nlm.nih.gov/substance/4160	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4126			
+51	N-Acetyl-6-deoxy-D-talosamine	6dTalNAc	N-Acetyl-6-deoxy-D-talosamine	Deoxysugar	Hexose	205.21	C8H15NO5	a	15	6	https://www.genome.jp/entry/C22241	https://pubchem.ncbi.nlm.nih.gov/substance/405226432	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:181402			
+52	Abequose	Abe	Abequose	Deoxysugar	Hexose	148.16	C6H12O4	a	16	6	https://www.genome.jp/entry/C06471	https://pubchem.ncbi.nlm.nih.gov/substance/8703	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:27778			
+53	Cymarose	Cym	Cymarose	Deoxysugar	Hexose	162.18	C7H14O4	a	17	6	https://www.genome.jp/entry/C08234	https://pubchem.ncbi.nlm.nih.gov/substance/10433	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:10366			
+54	6-Deoxy-D-talose	6dTal 	6-Deoxy-D-talose	Deoxysugar	Hexose	164.16	C6H12O5	a	18	6	https://www.genome.jp/entry/C21058	https://pubchem.ncbi.nlm.nih.gov/substance/254816283	NA			
+55	6-Deoxy-D-gulose	6dGul	6-Deoxy-D-gulose	Deoxysugar	Hexose	164.16	C6H12O5	a	19	6	https://www.genome.jp/entry/C22093	https://pubchem.ncbi.nlm.nih.gov/substance/384585151	NA			
+56	Rhamnose	Rham	6-deoxy-L-mannose	Deoxysugar	Hexose	164.16	C6H12O5	a	20	6	https://www.genome.jp/entry/C00507	https://pubchem.ncbi.nlm.nih.gov/substance/3790	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:62345			
+57	2-Deoxy-D-glucose	dGlc	2-Deoxy-D-glucose	Deoxysugar	Hexose	164.16	C6H12O5	a	21	6	https://www.genome.jp/entry/C00586	https://pubchem.ncbi.nlm.nih.gov/substance/3865	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15866			
+58	Gulose	Gul	Gulose	Aldose	Hexose	180.16	C6H12O6	a	1	7	https://www.genome.jp/entry/C06465	https://pubchem.ncbi.nlm.nih.gov/substance/8697	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4191			
+59	Talose	Tal	Talose	Aldose	Hexose	180.16	C6H12O6	a	2	7	https://www.genome.jp/entry/C06467	https://pubchem.ncbi.nlm.nih.gov/substance/8699	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28458			
+60	N-Acetyl-glucosamine	GlcNAc	N-Acetyl-glucosamine	Aminosugar	Hexose	221.21	C8H15NO6	a	6	7	https://www.genome.jp/entry/C00140	https://pubchem.ncbi.nlm.nih.gov/substance/3440	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:506227			
+61	N-Acetyl-galactosamine	GalNAc	N-Acetyl-galactosamine	Aminosugar	Hexose	221.21	C8H15NO6	a	7	7	https://www.genome.jp/entry/C01132	https://pubchem.ncbi.nlm.nih.gov/substance/4363	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28037			
+62	N-Acetyl-mannosamine	ManNAc	N-Acetyl-mannosamine	Aminosugar	Hexose	221.21	C8H15NO6	a	8	7	https://www.genome.jp/entry/C00645	https://pubchem.ncbi.nlm.nih.gov/substance/3918	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:63153			
+63	N-Acetyl-quinovosamine	QuiNAc	N-Acetyl-quinovosamine	Aminosugar	Hexose	205.21	C8H15NO5	a	9	7	https://www.genome.jp/entry/C15481	https://pubchem.ncbi.nlm.nih.gov/substance/17396475	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:59277			
+64	N-Acetyl-rhamnosamine	RhaNAc	N-Acetyl-rhamnosamine	Aminosugar	Hexose	205.21	C8H15NO5	a	10	7	https://www.genome.jp/entry/C21056	https://pubchem.ncbi.nlm.nih.gov/substance/254816281	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:181398			
+65	N-Acetyl-allosamine	AllNAc	N-Acetyl-allosamine	Aminosugar	Hexose	221.21	C8H15NO6	a	11	7	https://www.genome.jp/entry/C21039	https://pubchem.ncbi.nlm.nih.gov/substance/254816264	NA			
+66	Taluronic acid	TalA	Taluronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	12	7	https://www.genome.jp/entry/C21059	https://pubchem.ncbi.nlm.nih.gov/substance/254816284	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182517			
+67	Galacturonic acid	GalA	Galacturonic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	13	7	https://www.genome.jp/entry/C00333	https://pubchem.ncbi.nlm.nih.gov/substance/3627	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4153			
+68	Alluronic acid	AllA	Alluronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	14	7	https://www.genome.jp/entry/C21037	https://pubchem.ncbi.nlm.nih.gov/substance/254816262	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182515			
+69	6-Deoxy-L-altrose	6dAlt 	6-Deoxy-L-altrose	Deoxysugar	Hexose	164.16	C6H12O5	a	16	7	https://www.genome.jp/entry/C21033	https://pubchem.ncbi.nlm.nih.gov/substance/254816258	NA			
+70	Fucose	Fuc	6-deoxy-L-galactose	Deoxysugar	Hexose	164.16	C6H12O5	a	17	7	https://www.genome.jp/entry/C01019	https://pubchem.ncbi.nlm.nih.gov/substance/4264	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2181			
+71	Fucolose	Fucl	6-deoxy-L-tagalose	Deoxysugar	Hexose	164.16	C6H12O5	a	18	7						
+72	Quinovose	Qui 	6-deoxy-D-glucose	Deoxysugar	Hexose	164.16	C6H12O5	a	19	7	https://www.genome.jp/entry/C08352	https://pubchem.ncbi.nlm.nih.gov/substance/10549	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:42606			
+73	Cladinose	Cla	Cladinose	Deoxysugar	Hexose	176.21	C8H16O4	a	20	7	https://www.genome.jp/entry/C11917	https://pubchem.ncbi.nlm.nih.gov/substance/14078	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29612			
+74	Acofriose	Aco	Acofriose	Deoxysugar	Hexose	178.18	C7H14O5	a	21	7	https://www.genome.jp/entry/C22242	https://pubchem.ncbi.nlm.nih.gov/substance/405226433	NA			
+75	N-Acetyl-altrosamine	LaltNAc	N-Acetyl-altrosamine	Aminosugar	Hexose	221.21	C8H15NO6	a	6	8	https://www.genome.jp/entry/C21036	https://pubchem.ncbi.nlm.nih.gov/substance/254816261	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182166			
+76	N-Acetyl-gulosamine	GulNAc	N-Acetyl-gulosamine	Aminosugar	Hexose	221.21	C8H15NO6	a	7	8	https://www.genome.jp/entry/C21049	https://pubchem.ncbi.nlm.nih.gov/substance/254816274	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182167			
+77	N-Acetyl-idosamine	LldoNAc	N-Acetyl-idosamine	Aminosugar	Hexose	221.21	C8H15NO6	a	8	8	https://www.genome.jp/entry/C21052	https://pubchem.ncbi.nlm.nih.gov/substance/254816277	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182168			
+78	N-Acetyl-talosamine	TalNAc	N-Acetyl-talosamine	Aminosugar	Hexose	221.21	C8H15NO6	a	9	8	https://www.genome.jp/entry/C21061	https://pubchem.ncbi.nlm.nih.gov/substance/254816286	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182169			
+79	N-Acetyl-muramic acid	MurNAc	N-Acetyl-muramic acid	Aminosugar	Hexose	293.27	C11H19NO8	a	10	8	https://www.genome.jp/entry/C02713	https://pubchem.ncbi.nlm.nih.gov/substance/5676	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:21615			
+80	N-Glycolyl-muramic acid	MurNGc	N-Glycolyl-muramic acid	Aminosugar	Hexose	309.27	C11H19NO9	a	11	8	https://www.genome.jp/entry/C21053	https://pubchem.ncbi.nlm.nih.gov/substance/254816278	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182961			
+81	4-O-Methyl-D-glucuronic acid	meGlcA	4-O-Methyl-D-glucuronic acid	Uronic Acid	Hexose	208.17	C7H12O7	a	12	8	https://www.genome.jp/entry/C22374	NA	NA			
+82	Thevetose	The	Thevetose	Deoxysugar	Hexose	178.18	C7H14O5	a	21	8	https://www.genome.jp/entry/C16287	https://pubchem.ncbi.nlm.nih.gov/substance/47205595	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:80423			
+83	(D or L)-Glycero-D-manno-Heptose	ManHep	(D or L)-Glycero-D-manno-Heptose	Aldose	Heptose	210.18	C7H14O7	a	1	9	https://www.genome.jp/entry/C21042	https://pubchem.ncbi.nlm.nih.gov/substance/254816267	NA			
+84	Sedoheptulose	Sed	Sedoheptulose	Ketose	Heptose	210.18	C7H14O7	a	4	9	https://www.genome.jp/entry/C02076	https://pubchem.ncbi.nlm.nih.gov/substance/5162	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16802			
+85	Manno-heptulose	ManH 	Manno-heptulose	Ketose	Heptose	210.18	C7H14O7	a	5	9	https://www.genome.jp/entry/C08236	https://pubchem.ncbi.nlm.nih.gov/substance/10435	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28657			
+86	3-Deoxy-lyxo-heptulosaric acid	Dha	3-Deoxy-lyxo-heptulosaric acid	Deoxysugar	Heptose	222.15	C7H10O8	a	21	9	https://www.genome.jp/entry/C21044	https://pubchem.ncbi.nlm.nih.gov/substance/254816269	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:190722			
+87	D-erythro-L-galacto-octose	Oct	D-erythro-L-galacto-octose	Aldose	Octose	240.21	C8H16O8	b	1	1						
+88	3-Deoxy-D-manno-2-octulosonic acid 	Kdo	3-Deoxy-D-manno-2-octulosonic acid 	Ketose	Octose	238.19	C8H14O8	b	2	1	https://www.genome.jp/entry/C01187	https://pubchem.ncbi.nlm.nih.gov/substance/4413	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:32817			
+89	Erwiniose	Erw	Erwiniose	Deoxysugar	Octose	236.26	C10H20O6	b	3	1						
+90	Methylthio-lincosamide	Mtl	Methylthio-lincosamide	Deoxysugar	Octose	253.32	C9H19NSO5	b	4	1						
+91	Pseudaminic acid	Pse	Pseudaminic acid		Nonose	250.25	C9H18N2O6	c	1	1	https://www.genome.jp/entry/C20082					
+92	Acinetaminic acid	Aci	Acinetaminic acid		Nonose	250.25	C9H18N2O6	c	2	1						
+93	Legionaminic acid	Leg	Legionaminic acid		Nonose	250.25	C9H18N2O6	c	3	1						
+94	4-Epi-legionaminic acid	4eLeg	4-Epi-legionaminic acid		Nonose	250.25	C9H18N2O6	c	4	1						
+95	8-Epi-legionaminic acid	8eLeg	8-Epi-legionaminic acid		Nonose	250.25	C9H18N2O6	c	5	1						
+96	8-Epiacinetaminic acid	8eAci	8-Epiacinetaminic acid		Nonose	250.25	C9H18N2O6	c	6	1						
+97	3-Deoxy-D-glycero-D-galacto-non-2-ulosonic acid	Kdn	3-Deoxy-D-glycero-D-galacto-non-2-ulosonic acid		Nonose	268.22	C9H16O9	c	1	2	https://www.genome.jp/entry/C20934	https://pubchem.ncbi.nlm.nih.gov/substance/254741396	NA			
+98	Neuraminic acid	Neu	Neuraminic acid		Nonose	267.23	C9H17NO8	c	2	2	https://www.genome.jp/entry/C06469	https://pubchem.ncbi.nlm.nih.gov/substance/8701	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:7539			
+99	N-Acetyl-neuraminic acid	Neu5Ac	N-Acetyl-neuraminic acid		Nonose	309.27	C11H19NO9	c	3	2	https://www.genome.jp/entry/C00270	https://pubchem.ncbi.nlm.nih.gov/substance/3568	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17012			
+100	N-Glycolyl-neuraminic acid	Neu5Gc	N-Glycolyl-neuraminic acid		Nonose	325.27	C11H19NO10	c	4	2	https://www.genome.jp/entry/C03410	https://pubchem.ncbi.nlm.nih.gov/substance/6239	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:146193			
+101	Fusaminic acid	Fus	Fusaminic acid		Nonose	309.27	C11H19NO9	c	5	2						
+102	"3,6-Dideoxy-L-threo-L-talo-decose"	dTtd	"3,6-Dideoxy-L-threo-L-talo-decose"	Aldose	Decose	268.26	C10H20O8	d	1	1						
+103	"3,6,10-Trideoxy-4-c-[(r)-1-hydroxy-ethyl]-D-erythro-D-gulo-decose"	dEgd	"3,6,10-Trideoxy-4-c-[(r)-1-hydroxy-ethyl]-D-erythro-D-gulo-decose"	Aldose	Decose	296.31	C12H24O8	d	2	1						
+		 														

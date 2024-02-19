@@ -1,15 +1,88 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
     <title>Bootstrap w/ Vite</title>
-    <script type="module" src="./js/main.js"></script>
-  </head>
-  <body>
-    <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Vite!</h1>
-      <button class="btn btn-primary">Primary button</button>
-    </div>
-  </body>
+    <script
+        type="module"
+        src="./js/main.js"
+    ></script>
+</head>
+
+<body>
+    <main>
+        <nav
+            class="navbar navbar-expand-md navbar-dark bg-dark"
+            aria-label="Fourth navbar example"
+        >
+            <div class="container-fluid">
+                <a
+                    class="navbar-brand"
+                    href="#"
+                >Periodic Table of Monosaccharides</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample04"
+                    aria-controls="navbarsExample04"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarsExample04"
+                >
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item dropstart me-3">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >Cite</a>
+                            <div class="dropdown-menu" style="min-width: 300px">
+                                <div class="my-2 mx-3">
+                                    Cummings RD. A periodic table of monosaccharides. Glycobiology.
+                                    <br>doi: 10.1093/glycob/cwad088. 
+                                    <br>PMID: 37935401.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a
+                                class="nav-link"
+                                href="https://github.com/thencfg/PeriodicTableOfMonosaccharides"
+                            >
+                                <img
+                                    src="./github-mark-white.png"
+                                    alt="GitHub Source Code"
+                                    height="20px"
+                                > Source Code
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container py-4 px-3 mx-auto">
+            <div id="canvas">
+    
+            </div>
+        </div>
+
+    </main>
+
+
+</body>
+
 </html>

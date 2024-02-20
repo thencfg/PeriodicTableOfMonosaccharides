@@ -1,4 +1,4 @@
-
+import { tileColors } from "./tile-colors";
 
 export function drawBlock(elemnt, data, blockTranslate, tileX, tileY) {
     let blockG = elemnt.append('g').attr('class', 'block').attr('transform', blockTranslate)
@@ -12,7 +12,21 @@ export function drawBlock(elemnt, data, blockTranslate, tileX, tileY) {
 
     tileG.append('rect').attr('width', tileX).attr('height', tileY)
         .attr('stroke', 'black')
-        .attr('fill', 'white');
+        .attr('fill', (d) => {
+            if (d.group == "") {
+                d.group = "Nonose"
+            }
+
+            if (d.group == "Aminosugar" &&
+                (d.monosaccharide.includes('Acetyl') ||
+                d.monosaccharide.includes('Glycolyl')
+                )
+                ) {
+                d.group = "Aminosugar-acetylated"
+            }
+
+            return tileColors[d.group];
+        });
 
     tileG.append('text')
         .text(d => d.abbreviation)

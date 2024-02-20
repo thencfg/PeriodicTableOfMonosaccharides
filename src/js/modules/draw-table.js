@@ -1,4 +1,7 @@
 import * as d3 from 'd3';
+import { drawBlock } from './draw-block';
+import { getXYRange } from './getXYRange';
+import { blockTranslate } from './block-translate';
 
 export async function generateTable(divID = 'canvas') {
 
@@ -15,44 +18,29 @@ export async function generateTable(divID = 'canvas') {
     // get data
     let data = await d3.tsv('./monosaccharide-list.txt');
 
-    data = data.map(m => {
-        m.x = +m.x;
-        m.y = +m.y;
-        return m;
-    }).filter(f => f)
-    
-    let blocks = [...new Set(data.map(m => m.block))];
+    data = data.filter(f => f.abbreviation.trim() !== "")
+        .map(m => {
+            m.x = +m.x;
+            m.y = +m.y;
+            return m;
+        })
 
-    let groups = [...new Set(data.map(m => m.group))];
-    let periods = [...new Set(data.map(m => m.period))];
+    let blocks = getXYRange(data, 'block');
+    let groups = getXYRange(data, 'group');
+    let periods = getXYRange(data, 'period');
 
 
     let maxColumns = d3.max(data.map(m => m.x))
     let maxRows = d3.max(data.map(m => m.y))
 
-    let tileX = width / maxColumns - 2;
-    let tileY = (height) / maxRows - 2;
+    let tileX = width / maxColumns - 5;
+    let tileY = (height) / maxRows - 15;
 
-
-    let tileG = svg.selectAll('.tile-g').data(data.filter(f => f.block === 'a'))
-        .join(
-            enter => enter.append('g').attr('class', 'tile').attr('transform', function (d) {
-                return `translate(${(d.x - 1) * tileX}, ${(d.y - 1) * tileY})`;
-            })
-        )
-        ;
-
-    tileG.append('rect').attr('width', tileX).attr('height', tileY)
-        .attr('stroke', 'black')
-        .attr('fill', 'white');
-
-    tileG.append('text')
-    .text(d => d.abbreviation)
-    .attr('text-anchor', 'middle')
-    .attr('transform', `translate(${tileX / 2}, ${tileY / 2})`)
-    .attr('font-size', '10')
-    .attr('font-weight', 'bold')
-
-    console.log({groups, periods, maxRows, height, blocks, tileY });
-
+    for(let block in blocks) {
+        let blockData = data.filter(f => f.block == block)
+        let translate = `translate(${blockTranslate[block].x}, ${blockTranslate[block].y})`
+        drawBlock(svg, blockData, translate, tileX, tileY);
+    }
+    
+    
 }

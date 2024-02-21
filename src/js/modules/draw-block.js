@@ -1,4 +1,5 @@
 import { tileColors } from "./tile-colors";
+import { showToolTip } from "./show-tooltip";
 
 export function drawBlock(elemnt, data, blockTranslate, tileX, tileY) {
     let blockG = elemnt.append('g').attr('class', 'block').attr('transform', blockTranslate)
@@ -8,7 +9,10 @@ export function drawBlock(elemnt, data, blockTranslate, tileX, tileY) {
                 return `translate(${(d.x - 1) * tileX}, ${(d.y - 1) * tileY})`;
             })
         )
-        ;
+        .style('cursor', 'pointer')
+        .on('click', function (d) {
+            showToolTip(this.__data__);
+        });
 
     tileG.append('rect').attr('width', tileX).attr('height', tileY)
         .attr('stroke', 'black')
@@ -19,9 +23,9 @@ export function drawBlock(elemnt, data, blockTranslate, tileX, tileY) {
 
             if (d.group == "Aminosugar" &&
                 (d.monosaccharide.includes('Acetyl') ||
-                d.monosaccharide.includes('Glycolyl')
+                    d.monosaccharide.includes('Glycolyl')
                 )
-                ) {
+            ) {
                 d.group = "Aminosugar-acetylated"
             }
 

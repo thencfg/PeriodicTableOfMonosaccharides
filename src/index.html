@@ -1,5 +1,8 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html
+    lang="en"
+    class="h-100"
+>
 
 <head>
     <meta charset="utf-8">
@@ -66,7 +69,7 @@
                                 href="https://github.com/thencfg/PeriodicTableOfMonosaccharides"
                             >
                                 <img
-                                    src="./github-mark-white.png"
+                                    src="./assets/github-mark-white.png"
                                     alt="GitHub Source Code"
                                     height="20px"
                                 > Source Code
@@ -78,7 +81,10 @@
         </nav>
 
         <div class="container-fluid p-3 mx-auto flex-fill">
-            <div id="canvas" class="h-100 w-100">
+            <div
+                id="canvas"
+                class="h-100 w-100"
+            >
 
             </div>
         </div>
@@ -89,6 +95,43 @@
             </div>
         </footer>
     </main>
+
+    <!-- Modal -->
+    <div
+        class="modal fade"
+        id="tooltipModal"
+        tabindex="-1"
+        aria-labelledby="tooltipModalLabel"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1
+                        class="modal-title fs-5"
+                        id="tooltipModalLabel"
+                    ></h1>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                    >Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 

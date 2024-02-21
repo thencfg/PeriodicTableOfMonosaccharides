@@ -16,7 +16,7 @@ export async function generateTable(divID = 'canvas') {
         ;
 
     // get data
-    let data = await d3.tsv('./monosaccharide-list.txt');
+    let data = await d3.tsv('./assets/monosaccharide-list.txt');
 
     data = data.filter(f => f.abbreviation.trim() !== "")
         .map(m => {
@@ -41,6 +41,17 @@ export async function generateTable(divID = 'canvas') {
         let translate = `translate(${blockTranslate[block].x}, ${blockTranslate[block].y})`
         drawBlock(svg, blockData, translate, tileX, tileY);
     }
+
+    canvas.append('div')
+    .style("opacity", 0)
+    .attr('id', 'tooltip')
+    .attr("class", "")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
+    .style("position", "absolute")
     
     
 }

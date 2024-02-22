@@ -2,6 +2,7 @@ import * as d3 from 'd3';
 import { drawBlock } from './draw-block';
 import { getXYRange } from './getXYRange';
 import { blockTranslate } from './block-translate';
+import { drawLabels } from './draw-labels';
 
 export async function generateTable(divID = 'canvas') {
 
@@ -26,8 +27,7 @@ export async function generateTable(divID = 'canvas') {
         })
 
     let blocks = getXYRange(data, 'block');
-    let groups = getXYRange(data, 'group');
-    let periods = getXYRange(data, 'period');
+
 
 
     let maxColumns = d3.max(data.map(m => m.x))
@@ -39,7 +39,7 @@ export async function generateTable(divID = 'canvas') {
     for(let block in blocks) {
         let blockData = data.filter(f => f.block == block)
         let translate = `translate(${blockTranslate[block].x}, ${blockTranslate[block].y})`
-        drawBlock(svg, blockData, translate, tileX, tileY);
+        drawBlock(svg, blockData, translate, tileX, tileY, block);
     }
 
     canvas.append('div')

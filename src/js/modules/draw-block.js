@@ -1,8 +1,12 @@
 import { tileColors } from "./tile-colors";
 import { showToolTip } from "./show-tooltip";
+import { drawLabels } from "./draw-labels";
 
-export function drawBlock(elemnt, data, blockTranslate, tileX, tileY) {
+export function drawBlock(elemnt, data, blockTranslate, tileX, tileY, block) {
     let blockG = elemnt.append('g').attr('class', 'block').attr('transform', blockTranslate)
+
+    drawLabels(blockG, data, tileX, tileY, block);
+
     let tileG = blockG.selectAll('.tile-g').data(data)
         .join(
             enter => enter.append('g').attr('class', 'tile').attr('transform', function (d) {
@@ -38,4 +42,6 @@ export function drawBlock(elemnt, data, blockTranslate, tileX, tileY) {
         .attr('transform', `translate(${tileX / 2}, ${tileY / 2})`)
         .attr('font-size', '10')
         .attr('font-weight', 'bold')
+
+    
 }

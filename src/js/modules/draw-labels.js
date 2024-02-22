@@ -17,8 +17,7 @@ export function drawLabels(element, blockData, tileX, tileY, block) {
     for (let period in periods) {
         periodLabel(periodG, period, periods[period], tileY)
     }
-
-    console.log({ groups, periods });
+    
 }
 
 

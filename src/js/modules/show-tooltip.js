@@ -2,8 +2,6 @@ import * as d3 from "d3";
 import * as bootstrap from 'bootstrap'
 
 export function showToolTip(data) {
-    console.log(data);
-
     const myModal = bootstrap.Modal.getOrCreateInstance('#tooltipModal');
     myModal.show();
 
@@ -16,6 +14,8 @@ export function showToolTip(data) {
     tooltip.transition().duration(200).style('opacity', 1)
 
     tooltip.append('div').attr('class', 'mb-2').text(`Abbreviation: ${data.abbreviation}`);
+
+    tooltip.append('div').attr('class', 'mb-2').text(`Systematic Name: ${data.systematic_name}`);
     
     tooltip.append('div').attr('class', 'mb-2').text(`Mass: ${data.mass}`);
     
@@ -23,17 +23,19 @@ export function showToolTip(data) {
 
     let externalRefs = tooltip.append('div');
     externalRefs.append('h5').text('External References');
-    (data.kegg) ? addExternalReference(externalRefs, 'KEGG', data.kegg) : null;
-    (data.pubchem) ? addExternalReference(externalRefs, 'PubChem', data.pubchem) : null;
-    (data.chebi) ? addExternalReference(externalRefs, 'ChEBI', data.chebi) : null;
-    (data.glygen) ? addExternalReference(externalRefs, 'Glygen', data.glygen) : null;
-    (data.glyconnect) ? addExternalReference(externalRefs, 'Glyconnect', data.glyconnect) : null;
+    let ul = externalRefs.append('ul');
+    (data.kegg) ? addExternalReference(ul, 'KEGG', data.kegg) : null;
+    (data.pubchem) ? addExternalReference(ul, 'PubChem', data.pubchem) : null;
+    (data.chebi) ? addExternalReference(ul, 'ChEBI', data.chebi) : null;
+    (data.glygen) ? addExternalReference(ul, 'Glygen', data.glygen) : null;
+    (data.glyconnect) ? addExternalReference(ul, 'Glyconnect', data.glyconnect) : null;
 
 }
 
-function addExternalReference(element, reference, link) {
-    let ul = element.append('ul')
-    ul.append('li').append('a').attr('href', link).attr('target', '_blank').text(reference);
+function addExternalReference(ul, reference, link) {
+    if(link !== "NA") {
+        ul.append('li').append('a').attr('href', link).attr('target', '_blank').text(reference);
+    }
 }
 
 function addSubscriptsToFormula(formula) {

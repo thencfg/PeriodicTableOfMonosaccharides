@@ -7,7 +7,7 @@ export let blockTranslate = {
     },
     b: {
         x: 250,
-        y: 440,
+        y: 400,
     },
     c: {
         x: 600,

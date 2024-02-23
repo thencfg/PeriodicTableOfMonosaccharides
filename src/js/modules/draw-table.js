@@ -33,7 +33,7 @@ export async function generateTable(divID = 'canvas') {
     let maxRows = d3.max(data.map(m => m.y))
 
     let tileX = width / maxColumns - 5;
-    let tileY = (height) / maxRows - 15;
+    let tileY = (height) / maxRows - 20;
 
     for(let block in blocks) {
         let blockData = data.filter(f => f.block == block)

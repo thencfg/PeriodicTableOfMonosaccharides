@@ -89,7 +89,7 @@ index	monosaccharide	abbreviation	systematic_name	group	period	mass	formula	bloc
 88	3-Deoxy-D-manno-2-octulosonic acid 	Kdo	3-Deoxy-D-manno-2-octulosonic acid 	Ketose	Octose	238.19	C8H14O8	b	2	1	https://www.genome.jp/entry/C01187	https://pubchem.ncbi.nlm.nih.gov/substance/4413	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:32817			
 89	Erwiniose	Erw	Erwiniose	Deoxysugar	Octose	236.26	C10H20O6	b	3	1						
 90	Methylthio-lincosamide	Mtl	Methylthio-lincosamide	Deoxysugar	Octose	253.32	C9H19NSO5	b	4	1						
-91	Pseudaminic acid	Pse	Pseudaminic acid		Nonose	250.25	C9H18N2O6	c	1	1	https://www.genome.jp/entry/C20082					
+91	Pseudaminic acid	Pse	Pseudaminic acid		Nonose	250.25	C9H18N2O6	c	1	1						
 92	Acinetaminic acid	Aci	Acinetaminic acid		Nonose	250.25	C9H18N2O6	c	2	1						
 93	Legionaminic acid	Leg	Legionaminic acid		Nonose	250.25	C9H18N2O6	c	3	1						
 94	4-Epi-legionaminic acid	4eLeg	4-Epi-legionaminic acid		Nonose	250.25	C9H18N2O6	c	4	1						

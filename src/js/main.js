@@ -4,6 +4,6 @@ import '../scss/styles.scss'
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
 
-import { generateTable } from './modules/draw-table'
+import { generateTable } from './modules/draw-table.js'
 
 generateTable();

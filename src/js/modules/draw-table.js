@@ -1,8 +1,7 @@
 import * as d3 from 'd3';
-import { drawBlock } from './draw-block';
-import { getXYRange } from './getXYRange';
-import { blockTranslate } from './block-translate';
-import { drawLabels } from './draw-labels';
+import { drawBlock } from './draw-block.js';
+import { getXYRange } from './getXYRange.js';
+import { blockTranslate } from './block-translate.js';
 
 export async function generateTable(divID = 'canvas') {
 

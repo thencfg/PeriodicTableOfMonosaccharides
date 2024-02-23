@@ -1,6 +1,6 @@
-import { tileColors } from "./tile-colors";
-import { showToolTip } from "./show-tooltip";
-import { drawLabels } from "./draw-labels";
+import { tileColors } from "./tile-colors.js";
+import { showToolTip } from "./show-tooltip.js";
+import { drawLabels } from "./draw-labels.js";
 
 export function drawBlock(elemnt, data, blockTranslate, tileX, tileY, block) {
     let blockG = elemnt.append('g').attr('class', 'block').attr('transform', blockTranslate)

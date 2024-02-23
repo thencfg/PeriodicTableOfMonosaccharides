@@ -1,5 +1,4 @@
-import { getXYRange } from './getXYRange';
-import { blockTranslate } from './block-translate';
+import { getXYRange } from './getXYRange.js';
 
 export function drawLabels(element, blockData, tileX, tileY, block) {
     let periodG = element.append('g').attr('id', 'period-labels');

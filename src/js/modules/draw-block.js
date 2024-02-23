@@ -33,6 +33,10 @@ export function drawBlock(elemnt, data, blockTranslate, tileX, tileY, block) {
                 d.group = "Aminosugar-acetylated"
             }
 
+            if (d.abbreviation === "L6dAltNAc" || d.abbreviation === "6dTalNAc") {
+                d.group = "Deoxysugar-acetylated"
+            }
+
             return tileColors[d.group];
         });
 

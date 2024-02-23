@@ -1,3 +1,4 @@
+import * as d3 from 'd3';
 import { getXYRange } from './getXYRange.js';
 
 export function drawLabels(element, blockData, tileX, tileY, block) {
@@ -11,12 +12,18 @@ export function drawLabels(element, blockData, tileX, tileY, block) {
         for (let group in groups) {
             groupLabel(groupG, group, groups[group], tileX)
         }
+
+        let translateX = d3.max(blockData, d => d.x) * tileX;
+
+        for (let period in periods) {
+            rightSidePeriodBars(periodG, period, periods[period], tileY, translateX)
+        }
     }
 
     for (let period in periods) {
         periodLabel(periodG, period, periods[period], tileY)
     }
-    
+
 }
 
 
@@ -54,6 +61,37 @@ function periodLabel(periodG, period, details, tileY) {
 
     labelG.append('line')
         .attr('x1', 0)
+        .attr('x2', 5)
+        .attr('y1', (periodLength * (tileY / 2)) + tileY / 2)
+        .attr('y2', (periodLength * (tileY / 2)) + tileY / 2)
+        .attr('stroke', 'black')
+        .attr('stroke-width', 1)
+}
+
+function rightSidePeriodBars(periodG, period, details, tileY, translateX) {
+    let y = tileY * (((details.maxY - details.minY) / 2) + details.minY) - tileY
+    let labelG = periodG.append('g').attr('transform', `translate(${translateX} , ${y})`)
+
+    let periodLength = details.maxY - details.minY + 0.9;
+
+    labelG.append('line')
+        .attr('x1', 10)
+        .attr('x2', 10)
+        .attr('y1', (-periodLength * (tileY / 2) + tileY / 2))
+        .attr('y2', (periodLength * (tileY / 2)) + tileY / 2)
+        .attr('stroke', 'black')
+        .attr('stroke-width', 1)
+
+    labelG.append('line')
+        .attr('x1', 10)
+        .attr('x2', 5)
+        .attr('y1', (-periodLength * (tileY / 2) + tileY / 2))
+        .attr('y2', (-periodLength * (tileY / 2) + tileY / 2))
+        .attr('stroke', 'black')
+        .attr('stroke-width', 1)
+
+    labelG.append('line')
+        .attr('x1', 10)
         .attr('x2', 5)
         .attr('y1', (periodLength * (tileY / 2)) + tileY / 2)
         .attr('y2', (periodLength * (tileY / 2)) + tileY / 2)

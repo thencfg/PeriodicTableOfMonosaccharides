@@ -9,6 +9,9 @@ export async function generateTable(divID = 'canvas') {
 
     let height = 500;
     let width = 1300;
+    let margin = {
+        right: 20
+    }
 
     let svg = canvas.append('svg')
         .attr('height', height)
@@ -27,12 +30,10 @@ export async function generateTable(divID = 'canvas') {
 
     let blocks = getXYRange(data, 'block');
 
-
-
     let maxColumns = d3.max(data.map(m => m.x))
     let maxRows = d3.max(data.map(m => m.y))
 
-    let tileX = width / maxColumns - 5;
+    let tileX = (width - margin.right) / maxColumns - 5;
     let tileY = (height) / maxRows - 20;
 
     for(let block in blocks) {

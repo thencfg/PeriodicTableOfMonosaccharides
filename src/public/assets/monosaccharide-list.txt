@@ -67,7 +67,7 @@ index	monosaccharide	abbreviation	systematic_name	group	period	mass	formula	bloc
 66	Taluronic acid	TalA	Taluronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	12	7	https://www.genome.jp/entry/C21059	https://pubchem.ncbi.nlm.nih.gov/substance/254816284	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182517			
 67	Galacturonic acid	GalA	Galacturonic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	13	7	https://www.genome.jp/entry/C00333	https://pubchem.ncbi.nlm.nih.gov/substance/3627	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4153			
 68	Alluronic acid	AllA	Alluronic acid	Uronic Acid	Hexose	194.14	C6H10O7	a	14	7	https://www.genome.jp/entry/C21037	https://pubchem.ncbi.nlm.nih.gov/substance/254816262	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:182515			
-69	6-Deoxy-L-altrose	6dAlt 	6-Deoxy-L-altrose	Deoxysugar	Hexose	164.16	C6H12O5	a	16	7	https://www.genome.jp/entry/C21033	https://pubchem.ncbi.nlm.nih.gov/substance/254816258	NA			
+69	6-Deoxy-L-altrose	6dAlt	6-Deoxy-L-altrose	Deoxysugar	Hexose	164.16	C6H12O5	a	16	7	https://www.genome.jp/entry/C21033	https://pubchem.ncbi.nlm.nih.gov/substance/254816258	NA			
 70	Fucose	Fuc	6-deoxy-L-galactose	Deoxysugar	Hexose	164.16	C6H12O5	a	17	7	https://www.genome.jp/entry/C01019	https://pubchem.ncbi.nlm.nih.gov/substance/4264	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2181			
 71	Fucolose	Fucl	6-deoxy-L-tagalose	Deoxysugar	Hexose	164.16	C6H12O5	a	18	7						
 72	Quinovose	Qui 	6-deoxy-D-glucose	Deoxysugar	Hexose	164.16	C6H12O5	a	19	7	https://www.genome.jp/entry/C08352	https://pubchem.ncbi.nlm.nih.gov/substance/10549	https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:42606			

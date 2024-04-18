@@ -1,5 +1,6 @@
 import * as d3 from "d3";
 import * as bootstrap from 'bootstrap'
+import { svgarr } from './svgarr.js';
 
 export function showToolTip(data) {
     const myModal = bootstrap.Modal.getOrCreateInstance('#tooltipModal');
@@ -16,9 +17,9 @@ export function showToolTip(data) {
     tooltip.append('div').attr('class', 'mb-2').text(`Abbreviation: ${data.abbreviation}`);
 
     tooltip.append('div').attr('class', 'mb-2').text(`Systematic Name: ${data.systematic_name}`);
-    
+
     tooltip.append('div').attr('class', 'mb-2').text(`Mass: ${data.mass}`);
-    
+
     tooltip.append('div').attr('class', 'mb-2').html(`Formula: ${addSubscriptsToFormula(data.formula)}`);
 
     let externalRefs = tooltip.append('div');
@@ -30,10 +31,13 @@ export function showToolTip(data) {
     (data.glygen) ? addExternalReference(ul, 'Glygen', data.glygen) : null;
     (data.glyconnect) ? addExternalReference(ul, 'Glyconnect', data.glyconnect) : null;
 
+    let symbolDiv = tooltip.append('div').attr('class', 'mb-2');
+
+    drawsymbol(data, symbolDiv);
 }
 
 function addExternalReference(ul, reference, link) {
-    if(link !== "NA") {
+    if (link !== "NA") {
         ul.append('li').append('a').attr('href', link).attr('target', '_blank').text(reference);
     }
 }
@@ -52,4 +56,35 @@ function addSubscriptsToFormula(formula) {
     });
 
     return result;
+}
+
+async function drawsymbol(data, symbolDiv) {
+
+    symbolDiv.html('<h6>SNFG Symbol:</h6>');
+
+    let abbreviation = data.abbreviation.trim();
+
+    let mono = svgarr.filter(f => f.id === abbreviation)[0];
+
+    if (mono !== undefined) {
+        let svgElement = symbolDiv.append('svg').attr('id', 'mono' + mono.id)
+            .attr('viewBox', mono.viewBox)
+            .attr('xmlns', 'http://www.w3.org/2000/svg')
+            .attr('width', '75')
+            .attr('height', '75');
+
+        svgElement
+            .attr('id', 'mono' + mono.id)
+            .attr('viewBox', mono.viewBox)
+            .attr('xmlns', 'http://www.w3.org/2000/svg')
+            .attr('width', '75')
+            .attr('height', '75');
+
+        let g = svgElement.append('g').attr("transform", "scale(0.5 0.5) translate(25,0)");
+
+        g.html(mono.innerhtml);
+    } else {
+        symbolDiv.append('p').text('No Symbol Defined');
+    }
+
 }

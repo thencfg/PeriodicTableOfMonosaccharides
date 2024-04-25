@@ -1,6 +1,15 @@
 import * as d3 from 'd3';
 import { getXYRange } from './getXYRange.js';
 
+/**
+ * Draws labels for the periodic table elements.
+ * @param {any} element - The SVG element to append the labels to.
+ * @param {Array} blockData - The data for the block of elements.
+ * @param {number} tileX - The width of each tile in the periodic table.
+ * @param {number} tileY - The height of each tile in the periodic table.
+ * @param {string} block - The block of elements ('a', 'b', 'c', etc.).
+ * @returns {void}
+ */
 export function drawLabels(element, blockData, tileX, tileY, block) {
     let periodG = element.append('g').attr('id', 'period-labels');
     let groupG = element.append('g').attr('id', 'group-labels');

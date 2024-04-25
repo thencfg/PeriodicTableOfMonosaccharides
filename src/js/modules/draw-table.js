@@ -3,6 +3,12 @@ import { drawBlock } from './draw-block.js';
 import { getXYRange } from './getXYRange.js';
 import { blockTranslate } from './block-translate.js';
 
+/**
+ * Generates a periodic table of monosaccharides.
+ * 
+ * @param {string} [divID='canvas'] - The ID of the HTML element where the table will be appended.
+ * @returns {Promise<void>} A promise that resolves when the table is generated.
+ */
 export async function generateTable(divID = 'canvas') {
 
     let canvas = d3.select(`#${divID}`)

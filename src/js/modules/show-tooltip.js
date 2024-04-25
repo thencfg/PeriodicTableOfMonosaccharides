@@ -2,6 +2,11 @@ import * as d3 from "d3";
 import * as bootstrap from 'bootstrap'
 import { svgarr } from './svgarr.js';
 
+/**
+ * Displays a tooltip with information about a monosaccharide.
+ *
+ * @param {Object} data - The data object containing information about the monosaccharide.
+ */
 export function showToolTip(data) {
     const myModal = bootstrap.Modal.getOrCreateInstance('#tooltipModal');
     myModal.show();
@@ -33,15 +38,28 @@ export function showToolTip(data) {
 
     let symbolDiv = tooltip.append('div').attr('class', 'mb-2');
 
-    drawsymbol(data, symbolDiv);
+    drawSymbol(data, symbolDiv);
 }
 
+/**
+ * Adds an external reference to the tooltip.
+ *
+ * @param {Element} ul - The unordered list element to append the reference to.
+ * @param {string} reference - The name of the external reference.
+ * @param {string} link - The URL of the external reference.
+ */
 function addExternalReference(ul, reference, link) {
     if (link !== "NA") {
         ul.append('li').append('a').attr('href', link).attr('target', '_blank').text(reference);
     }
 }
 
+/**
+ * Adds subscripts to the formula string by wrapping atomic symbols and their numbers with subscript tags.
+ *
+ * @param {string} formula - The formula string to add subscripts to.
+ * @returns {string} - The formula string with subscripts added.
+ */
 function addSubscriptsToFormula(formula) {
     // Use regular expression to match atomic symbols and their numbers
     const regex = /([A-Z][a-z]*)(\d*)/g;
@@ -58,7 +76,13 @@ function addSubscriptsToFormula(formula) {
     return result;
 }
 
-async function drawsymbol(data, symbolDiv) {
+/**
+ * Draws the SNFG symbol for a monosaccharide.
+ *
+ * @param {Object} data - The data object containing information about the monosaccharide.
+ * @param {Element} symbolDiv - The div element to append the symbol to.
+ */
+async function drawSymbol(data, symbolDiv) {
 
     symbolDiv.html('<h6>SNFG Symbol:</h6>');
 

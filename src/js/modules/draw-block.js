@@ -2,6 +2,16 @@ import { tileColors } from "./tile-colors.js";
 import { showToolTip } from "./show-tooltip.js";
 import { drawLabels } from "./draw-labels.js";
 
+/**
+ * Draws a block of tiles representing monosaccharides.
+ *
+ * @param {Selection} elemnt - The SVG element to append the block to.
+ * @param {Array} data - The data array containing information about each tile.
+ * @param {string} blockTranslate - The translation value for the block.
+ * @param {number} tileX - The width of each tile.
+ * @param {number} tileY - The height of each tile.
+ * @param {string} block - The class name for the block.
+ */
 export function drawBlock(elemnt, data, blockTranslate, tileX, tileY, block) {
     let blockG = elemnt.append('g').attr('class', 'block').attr('transform', blockTranslate)
 

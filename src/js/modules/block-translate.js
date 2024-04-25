@@ -1,5 +1,9 @@
 
 
+/**
+ * @file This file defines the blockTranslate object, which contains the coordinates of different blocks.
+ * The blockTranslate object is exported as a module.
+ */
 export let blockTranslate = {
     a: {
         x: 100,

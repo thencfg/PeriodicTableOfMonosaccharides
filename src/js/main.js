@@ -6,4 +6,4 @@ import * as bootstrap from 'bootstrap'
 
 import { generateTable } from './modules/draw-table.js'
 
-generateTable();
+generateTable(); // this will generate the table on page load

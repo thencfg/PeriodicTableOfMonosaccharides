@@ -27,3 +27,5 @@ All the logic is in the `src > js` folder and specific parts of the logic are br
 ## Contributors
 
 - [Akul Mehta](https://github.com/akulmehta)
+- Jamie Heimburg-Molinaro
+- Richard D. Cummings
